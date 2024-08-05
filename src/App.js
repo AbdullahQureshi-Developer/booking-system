@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './components/LandingPage/LandingPage'
 import AddTour from './components/AddTour/AddTour'
 import Tour from './components/Tour'
+import ExploreTour from './components/ExploreTour'
 
 function App() {
   return (
@@ -11,10 +12,11 @@ function App() {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route path="/" Component={LandingPage}/>
+            <Route path="/" Component={LandingPage} />
+          
             <Route path="/AddTour" Component={AddTour} />
-            <Route path="/Tour" Component={Tour}/>
-            
+            <Route path="/Tour" Component={Tour} />
+            <Route path="/ExploreTour" Component={ExploreTour} />
           </Routes>
           </Router>
       </header>
