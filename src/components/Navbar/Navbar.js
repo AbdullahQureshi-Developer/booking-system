@@ -22,7 +22,7 @@ function Navbar() {
           </div>
         </ul>
         <div>
-          <button className='btn-1' ><Link to='/ExploreTour' style={{ textDecoration: 'none', color: 'rgba(255, 255, 255, 1)' }}>Explore Now</Link></button>
+          <button id='btn' className='btn-1' ><Link to='/ExploreTour' style={{ textDecoration: 'none', color: 'rgba(255, 255, 255, 1)' }}>Explore Now</Link></button>
           </div>
       </nav>
     </>

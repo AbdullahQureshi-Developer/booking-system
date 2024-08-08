@@ -1,0 +1,113 @@
+.nav .btn-1{
+    display: none;
+}
+.imgbuilding{
+/* position: absolute; */
+width: 1600px;
+height: 572px;
+margin-left: -64px;
+margin-top:0px;
+/* object-fit: cover; */
+/* z-index: 0; */
+/* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); */
+
+}
+.booking{
+position: absolute;
+display: flex;
+width: 979px;
+height: 129px;
+left: 268px;
+top: 508px;
+background: #FFFFFF;
+box-shadow: 0px 0px 12px rgba(159, 164, 189, 0.3);
+border-radius: 12px;
+}
+.setlocation{
+/* position: absolute; */
+width: 228px;
+height: 80px;
+margin-left: 60px;
+margin-top: 25px;
+outline: solid red;
+display: flex;
+flex-wrap: wrap;
+}
+.setlocation img{
+/* position: absolute; */
+width: 32px;
+height: 32px;
+margin-left: 0px;
+margin-top: 0px;
+}
+.setlocation h1{
+/* position: absolute; */
+width: 87px;
+height: 30px;
+margin-left: 10px;
+margin-top: 0px;
+/* z-index: 2; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #202445;
+}
+.setlocation p{
+/* position: absolute; */
+width: 184px;
+height: 24px;
+margin-left:14px;
+margin-top:0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #999999;
+}
+.setDate{
+/* position: absolute; */
+display: flex;
+flex-wrap: wrap;
+outline: solid red;
+width: 228px;
+height: 80px;
+margin-left: 20px;
+margin-top: 25px;
+}
+.setDate img{
+/* position: absolute; */
+width: 18px;
+height: 18px;
+margin-top: 2px;
+margin-left: 2px;
+}
+.setDate h1 {
+/* position: absolute; */
+width: 131px;
+height: 30px;
+margin-left:10px;
+margin-top:0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #202445;
+}
+.setPrice{
+/* position: absolute; */
+width: 166px;
+height: 63px;
+margin-left: 31px;
+margin-top: 39px; 
+}
+.setPrice img{
+/* position: absolute; */
+width: 32px;
+height: 32px;
+margin-left: 31px;
+margin-top: 39px;
+}
