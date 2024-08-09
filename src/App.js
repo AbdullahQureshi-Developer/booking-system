@@ -5,6 +5,7 @@ import LandingPage from './components/LandingPage/LandingPage'
 import AddTour from './components/AddTour/AddTour'
 import Tour from './components/Tour'
 import ExploreTour from './components/ExploreTour'
+import MyTour from './components/MyTour'
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" Component={LandingPage} />
-          
             <Route path="/AddTour" Component={AddTour} />
             <Route path="/Tour" Component={Tour} />
+            <Route path="/MyTour" Component={MyTour} />
             <Route path="/ExploreTour" Component={ExploreTour} />
           </Routes>
-          </Router>
+        </Router>
       </header>
     </div>
   )

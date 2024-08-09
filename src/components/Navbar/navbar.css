@@ -2,14 +2,11 @@ nav {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 1535.85px;
+  width: 1519px;
   height: 54px;
-  /* left: 64.15px; */
+  left: 0px;
   top: 10px;
-  /* z-index: 1; */
-  background: linear-gradient();
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
-  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)); */
+
 }
 img {
   width: 85.66px;

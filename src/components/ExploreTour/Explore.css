@@ -1,113 +1,407 @@
-.nav .btn-1{
-    display: none;
+*{
+    /* outline: solid 1px red; */
 }
-.imgbuilding{
-/* position: absolute; */
-width: 1600px;
-height: 572px;
-margin-left: -64px;
-margin-top:0px;
-/* object-fit: cover; */
-/* z-index: 0; */
-/* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); */
+
+.nav .btn-1 {
+  display: none;
+}
+.imgbuilding {
+  /* position: absolute; */
+  width: 1519px;
+  height: 572px;
+  margin-left: 0px;
+  margin-top: 0px;
+  /* object-fit: cover; */
+  /* z-index: 0; */
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); */
+}
+.booking {
+  position: absolute;
+  display: flex;
+  width: 979px;
+  height: 129px;
+  left: 268px;
+  top: 508px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(159, 164, 189, 0.3);
+  border-radius: 12px;
+}
+.setlocation {
+  /* position: absolute; */
+  width: 228px;
+  height: 80px;
+  margin-left: 60px;
+  margin-top: 25px;
+  /* outline: solid red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.setlocation img {
+  /* position: absolute; */
+  width: 32px;
+  height: 32px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.setlocation h1 {
+  /* position: absolute; */
+  width: 87px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  /* z-index: 2; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202445;
+}
+.setlocation p {
+  /* position: absolute; */
+  width: 184px;
+  height: 24px;
+  margin-left: 14px;
+  margin-top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+.setDate {
+  /* position: absolute; */
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: solid red; */
+  width: 228px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.setDate img {
+  /* position: absolute; */
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.setDate h1 {
+  /* position: absolute; */
+  width: 131px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202445;
+}
+.setPrice {
+  /* position: absolute; */
+  width: 228px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: solid red; */
+}
+.setPrice img {
+  /* position: absolute; */
+  width: 22px;
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.setPrice h1 {
+  /* Price Range */
+
+  /* position: absolute; */
+  width: 121px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #202445;
+}
+.setPrice select {
+  text-decoration: none;
+  border-style: none;
+  /* Choose Here */
+
+  /* position: absolute; */
+  /* width: 130px; */
+  height: 24px;
+  /* left: 975px;
+top: 578px; */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #999999;
+
+  width: 428px;
+  /* height: 308px; */
+  margin-left: 20px;
+  margin-top: 0px;
+
+  background: #ffffff;
+  /* box-shadow: 0px 0px 12px rgba(159, 164, 189, 0.3); */
+  /* background: rgba(241, 107, 81, 0.2); */
+
+  border-radius: 12px;
+}
+.opt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 111px 8px 32px;
+  gap: 10px;
+
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 2px;
+
+  background: rgba(241, 107, 81, 0.2);
+}
+#date {
+  /* Group 133 */
+
+  /* position: absolute; */
+  width: 428px;
+  border-style: none;
+  margin-top: -20px;
+}
+.line-1 {
+  /* position: absolute; */
+  width: 2px;
+  height: 81px;
+  margin-left: 30px;
+  margin-top: 25px;
+  background: #ebebeb;
+}
+.line-2 {
+  /* Rectangle 10 */
+
+  /* position: absolute; */
+  width: 2px;
+  height: 81px;
+  margin-left: 30px;
+  margin-top: 25px;
+
+  background: #ebebeb;
+}
+.search {
+  /* position: absolute; */
+  width: 1000px;
+  height: 218px;
+  margin-left: 268px;
+  margin-top: 85px;
 
 }
-.booking{
-position: absolute;
-display: flex;
-width: 979px;
-height: 129px;
-left: 268px;
-top: 508px;
-background: #FFFFFF;
-box-shadow: 0px 0px 12px rgba(159, 164, 189, 0.3);
-border-radius: 12px;
+.search h1 {
+  /* Popular Search */
+
+  /* position: absolute; */
+  width: 218px;
+  height: 42px;
+  margin-left: 348px;
+  top: 685px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #202445;
 }
-.setlocation{
-/* position: absolute; */
-width: 228px;
-height: 80px;
-margin-left: 60px;
-margin-top: 25px;
-outline: solid red;
+.flist {
+
+/* Frame 6 */
+
+/* Auto layout */
 display: flex;
-flex-wrap: wrap;
-}
-.setlocation img{
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
 /* position: absolute; */
-width: 32px;
-height: 32px;
+width: 990px;
+height: 50px;
 margin-left: 0px;
 margin-top: 0px;
+
+
+
+
 }
-.setlocation h1{
-/* position: absolute; */
-width: 87px;
-height: 30px;
-margin-left: 10px;
-margin-top: 0px;
-/* z-index: 2; */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #202445;
-}
-.setlocation p{
-/* position: absolute; */
-width: 184px;
-height: 24px;
-margin-left:14px;
-margin-top:0px;
+.flist span{
+/* Frame 7 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 0px;
+
+width: 106px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+/* ---------------------- */
+/* Chicago */
+
+/* width: 86px;
+height: 30px; */
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #999999;
-}
-.setDate{
-/* position: absolute; */
-display: flex;
-flex-wrap: wrap;
-outline: solid red;
-width: 228px;
-height: 80px;
-margin-left: 20px;
-margin-top: 25px;
-}
-.setDate img{
-/* position: absolute; */
-width: 18px;
-height: 18px;
-margin-top: 2px;
-margin-left: 2px;
-}
-.setDate h1 {
-/* position: absolute; */
-width: 131px;
-height: 30px;
-margin-left:10px;
-margin-top:0px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
 font-size: 20px;
 line-height: 30px;
-color: #202445;
+/* identical to box height */
+
+color: #797C9A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
 }
-.setPrice{
+.slist{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
 /* position: absolute; */
-width: 166px;
-height: 63px;
-margin-left: 31px;
-margin-top: 39px; 
+width: 990px;
+height: 50px;
+margin-left:0px;
+margin-top: 53px;
 }
-.setPrice img{
-/* position: absolute; */
-width: 32px;
-height: 32px;
-margin-left: 31px;
-margin-top: 39px;
+.slist span{
+    /* Frame 4 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width:100px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+/* ---------------- */
+/* Cape Town */
+
+/* width: 114px;
+height: 30px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #797C9A;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+}
+.slist .ln{
+    /* Frame 6 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: px;
+gap: 10px;
+
+width: 148px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+
+/* Inside auto layout */
+/* flex: none;
+order: 2;
+flex-grow: 0; */
+/* --------------------- */
+/* Cape Town */
+
+/* width: 114px;
+height: 30px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #797C9A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.footer{
+    width: 1519px;
+    height: 300px;
 }

@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../Navbar'
 
-function AddTour() {
+function MyTour() {
   return (
     <>
       <div>
         <Navbar />
-      </div>
-      <div>
-        
-      </div>
+          </div>
+          <div>
+              
+          </div>
     </>
   )
 }
-export default AddTour
+export default MyTour

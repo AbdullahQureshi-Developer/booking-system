@@ -12,13 +12,13 @@ function Navbar() {
         <img src={Tourbay} alt="tourbay" />
         <ul>
           <div>
-            <Link className='link-1' to="/" >Tour</Link>
+            <Link className='link-1' to="/Tour" >Tour</Link>
           </div>
           <div>
             <Link className='link-1' to="/AddTour" >Add Tour</Link>
           </div>
           <div>
-            <Link className='link-1' to="/Tour" >My Tour</Link>
+            <Link className='link-1' to="/MyTour" >My Tour</Link>
           </div>
         </ul>
         <div>
