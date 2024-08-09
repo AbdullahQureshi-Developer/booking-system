@@ -9,6 +9,8 @@ import building4 from '../Images/building4.png'
 import building5 from '../Images/building5.png'
 import building6 from '../Images/building6.png'
 import building7 from '../Images/building7.png'
+import { Link } from 'react-router-dom'
+// import TourDetail from './TourDetail'
 
 
 function Tour() {
@@ -27,6 +29,7 @@ function Tour() {
               The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
               Art Museum of Miami......
             </p>
+            <button><span className='btn-text'>View Details</span></button>
             {/* <img className="price0" src={dollar} alt="dollar" />
           <p className="p2">$50 - $200</p>
           <img className="clock0" src={clockicon} alt="clockicon" />
@@ -39,6 +42,7 @@ function Tour() {
               Hard Rock Stadium is a multi-purpose stadium located in Miami
               Gardens, Florida, a city......
             </p>
+            <button><span className='btn-text'>View Details</span></button>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
@@ -51,6 +55,7 @@ function Tour() {
               Matheson Hammock Park is a 630 acres urban park in metropolitan
               Miami at 9610 Old .....
             </p>
+            <button><span className='btn-text'>View Details</span></button>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
@@ -65,23 +70,27 @@ function Tour() {
               The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
               Art Museum of Miami......
             </p>
+            <button><span className='btn-text'>View Details</span></button>
             {/* <img className="price0" src={dollar} alt="dollar" />
           <p className="p2">$50 - $200</p>
           <img className="clock0" src={clockicon} alt="clockicon" />
           <p className="p3">3 Days</p> */}
           </div>
+          {/* <Link to="./TourDetail.js"> */}
           <div className="card">
             <img className="building" src={building6} alt="building" />
             <h1>Hard Rock Stadium</h1>
             <p className="p1">
               Hard Rock Stadium is a multi-purpose stadium located in Miami
               Gardens, Florida, a city......
-            </p>
+              </p>
+              <button><span className='btn-text'>View Details</span></button>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
           <p className="p33">3 Days</p> */}
           </div>
+          {/* </Link> */}
           <div className="card">
             <img className="building" src={building7} alt="building" />
             <h1>Matheson Hammock Park</h1>
@@ -89,6 +98,8 @@ function Tour() {
               Matheson Hammock Park is a 630 acres urban park in metropolitan
               Miami at 9610 Old .....
             </p>
+            <button><Link to='./TourDetail' style={{ textDecoration: 'none', color: 'rgba(255, 255, 255, 1)' }}><span className='btn-text'>View Details</span></Link></button>
+            
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />

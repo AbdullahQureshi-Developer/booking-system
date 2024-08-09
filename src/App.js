@@ -6,6 +6,7 @@ import AddTour from './components/AddTour/AddTour'
 import Tour from './components/Tour'
 import ExploreTour from './components/ExploreTour'
 import MyTour from './components/MyTour'
+import TourDetail from './components/Tour/TourDetail.js'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/Tour" Component={Tour} />
             <Route path="/MyTour" Component={MyTour} />
             <Route path="/ExploreTour" Component={ExploreTour} />
+            <Route path="/TourDetail" Component={TourDetail} />
           </Routes>
         </Router>
       </header>
