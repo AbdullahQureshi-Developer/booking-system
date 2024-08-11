@@ -2,6 +2,11 @@ import React from 'react'
 import Navbar from '../Navbar'
 import './Tour.css'
 import building2 from '../Images/building2.png'
+import building201 from '../Images/building201.png'
+import building202 from '../Images/building202.png'
+import building203 from '../Images/building203.png'
+import building204 from '../Images/building204.png'
+
 // import dollar from '../Images/$.png'
 // import clockicon from '../Images/clockicon.png'
 import building3 from '../Images/building3.png'
@@ -11,9 +16,21 @@ import building6 from '../Images/building6.png'
 import building7 from '../Images/building7.png'
 import { Link } from 'react-router-dom'
 // import TourDetail from './TourDetail'
-
+// import { useNavigate } from 'react-router-dom'
 
 function Tour() {
+  const card01 = {
+    name: 'Pérez Art Museum Miami',
+    image: [building2, building201, building202, building203, building204],
+    para:
+      `The Pérez Art Museum Miami —officially known as the Jorge M. Pérez Art Museum of Miami-Dade County—is a contemporary art museum that relocated in 2013 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`
+  }
+    const card02 = {
+    name: 'Hard Rock Stadium',
+    image: [building3, building201, building202, building203, building204],
+    para:
+      `The Hard Rock Stadium —officially known as the Jorge M.Hard Rock Sdatium County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`
+  }
   return (
     <>
       <div className="upper">
@@ -29,7 +46,20 @@ function Tour() {
               The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
               Art Museum of Miami......
             </p>
-            <button><span className='btn-text'>View Details</span></button>
+            <Link
+              to="/TourDetail"
+              state={card01}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
+            {/* <button onClick={() => showDetail()}><span className='btn-text'>View Details</span></button> */}
+
             {/* <img className="price0" src={dollar} alt="dollar" />
           <p className="p2">$50 - $200</p>
           <img className="clock0" src={clockicon} alt="clockicon" />
@@ -42,7 +72,18 @@ function Tour() {
               Hard Rock Stadium is a multi-purpose stadium located in Miami
               Gardens, Florida, a city......
             </p>
-            <button><span className='btn-text'>View Details</span></button>
+            <Link
+              to={'/TourDetail'}
+                 state={card02}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
@@ -55,7 +96,17 @@ function Tour() {
               Matheson Hammock Park is a 630 acres urban park in metropolitan
               Miami at 9610 Old .....
             </p>
-            <button><span className='btn-text'>View Details</span></button>
+            <Link
+              to={'/TourDetail'}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
@@ -70,7 +121,17 @@ function Tour() {
               The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
               Art Museum of Miami......
             </p>
-            <button><span className='btn-text'>View Details</span></button>
+            <Link
+              to={'/TourDetail'}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
             {/* <img className="price0" src={dollar} alt="dollar" />
           <p className="p2">$50 - $200</p>
           <img className="clock0" src={clockicon} alt="clockicon" />
@@ -83,8 +144,18 @@ function Tour() {
             <p className="p1">
               Hard Rock Stadium is a multi-purpose stadium located in Miami
               Gardens, Florida, a city......
-              </p>
-              <button><span className='btn-text'>View Details</span></button>
+            </p>
+            <Link
+              to={'/TourDetail'}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />
@@ -98,8 +169,18 @@ function Tour() {
               Matheson Hammock Park is a 630 acres urban park in metropolitan
               Miami at 9610 Old .....
             </p>
-            <button><Link to='./TourDetail' style={{ textDecoration: 'none', color: 'rgba(255, 255, 255, 1)' }}><span className='btn-text'>View Details</span></Link></button>
-            
+            <Link
+              to={'/TourDetail'}
+              style={{
+                textDecoration: 'none',
+                color: 'rgba(255, 255, 255, 1)',
+              }}
+            >
+              <button>
+                <span className="btn-text">View Details</span>
+              </button>
+            </Link>
+
             {/* <img className="price1" src={dollar} alt="dollar" />
           <p className="p22">$50 - $200</p>
           <img className="clock1" src={clockicon} alt="clockicon" />

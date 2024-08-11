@@ -3,10 +3,9 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './components/LandingPage/LandingPage'
 import AddTour from './components/AddTour/AddTour'
-import Tour from './components/Tour'
+import {Tour, TourDetail} from './components/Tour'
 import ExploreTour from './components/ExploreTour'
 import MyTour from './components/MyTour'
-import TourDetail from './components/Tour/TourDetail.js'
 
 function App() {
   return (
