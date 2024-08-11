@@ -22,15 +22,34 @@ function Tour() {
   const card01 = {
     name: 'Pérez Art Museum Miami',
     image: [building2, building201, building202, building203, building204],
-    para:
-      `The Pérez Art Museum Miami —officially known as the Jorge M. Pérez Art Museum of Miami-Dade County—is a contemporary art museum that relocated in 2013 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`
+    para: `The Pérez Art Museum Miami —officially known as the Jorge M. Pérez Art Museum of Miami-Dade County—is a contemporary art museum that relocated in 2013 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
-    const card02 = {
+  const card02 = {
     name: 'Hard Rock Stadium',
     image: [building3, building201, building202, building203, building204],
-    para:
-      `The Hard Rock Stadium —officially known as the Jorge M.Hard Rock Sdatium County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`
+    para: `The Hard Rock Stadium —officially known as the Jorge M.Hard Rock Sdatium County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
+  const card03 = {
+    name: 'Matheson Hammock Park',
+    image: [building4, building201, building202, building203, building204],
+    para: `The Matheson Hammock Park —officially known as the Jorge M.Matheson Hammock Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
+  }
+  const card04 = {
+    name: 'The Wharf Miami',
+    image: [building5, building201, building202, building203, building204],
+    para: `The Wharf Miami —officially known as the Jorge M. Wharf Miami Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
+  }
+    const card05 = {
+    name: 'Miami Tower',
+    image: [building5, building201, building202, building203, building204],
+    para: `The Miami Tower —officially known as the Jorge M. Miami Tower Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
+  }
+    const card06 = {
+    name: 'Skyviews Miami',
+    image: [building5, building201, building202, building203, building204],
+    para: `The Skyviews Miami —officially known as the Jorge M.Skyviews Miami County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
+  }
+
   return (
     <>
       <div className="upper">
@@ -74,7 +93,7 @@ function Tour() {
             </p>
             <Link
               to={'/TourDetail'}
-                 state={card02}
+              state={card02}
               style={{
                 textDecoration: 'none',
                 color: 'rgba(255, 255, 255, 1)',
@@ -98,6 +117,7 @@ function Tour() {
             </p>
             <Link
               to={'/TourDetail'}
+              state={card03}
               style={{
                 textDecoration: 'none',
                 color: 'rgba(255, 255, 255, 1)',
@@ -116,13 +136,14 @@ function Tour() {
         <div className="cards">
           <div className="card">
             <img className="building" src={building5} alt="building" />
-            <h1>Pérez Art Museum Miami</h1>
+            <h1>The Wharf Miami</h1>
             <p className="p1">
-              The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
-              Art Museum of Miami......
+              An all new outdoor pop-up event space anchored with live music,
+              eats, cocktails.
             </p>
             <Link
               to={'/TourDetail'}
+              state={card04}
               style={{
                 textDecoration: 'none',
                 color: 'rgba(255, 255, 255, 1)',
@@ -140,13 +161,14 @@ function Tour() {
           {/* <Link to="./TourDetail.js"> */}
           <div className="card">
             <img className="building" src={building6} alt="building" />
-            <h1>Hard Rock Stadium</h1>
+            <h1>Miami Tower</h1>
             <p className="p1">
-              Hard Rock Stadium is a multi-purpose stadium located in Miami
-              Gardens, Florida, a city......
+              The Miami Tower is a 47-story, landmark office skyscraper in
+              Miami, Florida, United States.
             </p>
             <Link
               to={'/TourDetail'}
+              state={card05}
               style={{
                 textDecoration: 'none',
                 color: 'rgba(255, 255, 255, 1)',
@@ -164,13 +186,14 @@ function Tour() {
           {/* </Link> */}
           <div className="card">
             <img className="building" src={building7} alt="building" />
-            <h1>Matheson Hammock Park</h1>
+            <h1>Skyviews Miami</h1>
             <p className="p1">
-              Matheson Hammock Park is a 630 acres urban park in metropolitan
-              Miami at 9610 Old .....
+              Views of Biscayne Bay & the skyline from
+              climate-controlled glass gondolas.
             </p>
             <Link
               to={'/TourDetail'}
+              state={card06}
               style={{
                 textDecoration: 'none',
                 color: 'rgba(255, 255, 255, 1)',

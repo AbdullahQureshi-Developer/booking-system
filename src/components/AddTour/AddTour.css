@@ -1,0 +1,136 @@
+*{
+    /* outline: solid 1px red; */
+}
+
+.confirm{
+    height: 850px;
+    width: 700px;
+}
+.imgs{
+    /* Rectangle 91 */
+
+position: absolute;
+width: 718px;
+height: 935px;
+left: 718px;
+top: 113px;
+
+}
+.head h1{
+    /* Confirm Your Booking */
+
+/* position: absolute; */
+width: 444px;
+height: 60px;
+margin-left: 64px;
+margin-top: 126px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+color: #202445;
+
+
+}
+.nav .btn-1{
+   display: none;
+}
+p{
+    /* Name */
+
+/* position: absolute; */
+width: 250px;
+height: 27px;
+margin-left: 64px;
+/* margin-top: 218px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+color: #999999;
+
+
+}
+input {
+    /* Rectangle 2003 */
+
+box-sizing: border-box;
+
+/* position: absolute; */
+width: 521px;
+height: 54px;
+margin-left: 64px;
+top: 251px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+
+}
+select{
+    /* Rectangle 2003 */
+
+box-sizing: border-box;
+
+/* position: absolute; */
+width: 521px;
+height: 54px;
+margin-left: 64px;
+top: 727px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+border-radius: 12px;
+
+}
+button{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+
+/* position: absolute; */
+width: 521px;
+height: 54px;
+margin-left: 64px;
+margin-top: 40px;
+
+background: #F16B51;
+border-radius: 12px;
+border-color: #F16B51;
+}
+span{
+    /* Confirm */
+
+width: 83px;
+height: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
