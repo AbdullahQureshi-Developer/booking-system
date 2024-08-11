@@ -1,102 +1,107 @@
-.sec-1 h1{
-/* Pérez Art Museum Miami */
-
-/* position: absolute; */
-width: 503px;
-height: 60px;
-margin-left: 64px;
-margin-top: 125px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
-
-color: #202445;
-
-
+*{
+    /* outline: solid 1px red; */
+    /* width: 1320px; */
 }
-.image{
+.nav .btn-1{
+   display: none;
+}
+.sec-1 h1 {
+  /* Pérez Art Museum Miami */
+
+  /* position: absolute; */
+  width: 503px;
+  height: 60px;
+  margin-left: 64px;
+  margin-top: 125px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #202445;
+}
+
+.page{
+    width: 1500px;
+}
+.sec-1{
+    width: 1500px;
+} 
+.image {
   display: flex;
   flex-direction: row;
-
 }
 
 .image1 {
-width: 650px;
-height: 358px;
-margin-left: 64px;
-margin-top: 20px;
-border-radius: 12px;
+  width: 650px;
+  height: 358px;
+  margin-left: 64px;
+  margin-top: 20px;
+  border-radius: 12px;
 }
 
 .image2 {
-position: absolute;
-width: 335px;
-height: 167px;
-left: 690px;
-top: 198px;
-border-radius: 12px;
+  position: absolute;
+  width: 335px;
+  height: 167px;
+  left: 690px;
+  top: 198px;
+  border-radius: 12px;
 }
 
 .image3 {
- /* Rectangle 94 */
+  /* Rectangle 94 */
 
-position: absolute;
-width: 335px;
-height: 167px;
-left: 1060px;
-top: 198px;
+  position: absolute;
+  width: 335px;
+  height: 167px;
+  left: 1060px;
+  top: 198px;
 
-border-radius: 12px;
-
+  border-radius: 12px;
 }
-.image4{
-    /* Rectangle 95 */
+.image4 {
+  /* Rectangle 95 */
 
-position: absolute;
-width: 335px;
-height: 167px;
-left: 690px;
-top: 388px;
+  position: absolute;
+  width: 335px;
+  height: 167px;
+  left: 690px;
+  top: 388px;
 
-border-radius: 12px;
-
+  border-radius: 12px;
 }
-.image5{
-    /* Rectangle 96 */
+.image5 {
+  /* Rectangle 96 */
 
-position: absolute;
-width: 335px;
-height: 167px;
-left: 1060px;
-top: 388px;
+  position: absolute;
+  width: 335px;
+  height: 167px;
+  left: 1060px;
+  top: 388px;
 
-border-radius: 12px;
-
+  border-radius: 12px;
 }
-.sec-1 p{
-    /* The Pérez Art Museum Miami —officially known as the Jorge M. Pérez Art Museum of Miami-Dade County—is a contemporary art museum that relocated in 2013 to the Museum Park in Downtown Miami, Florida. Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building designed by Herzog & de Meuron at 1103 Biscayne Boulevard. PAMM, along with the $275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-acre Museum Park. */
+.sec-1 p {
 
-/* position: absolute; */
-width: 1367px;
-height: 192px;
-left: 65px;
-margin-top: 50px;
+  /* position: absolute; */
+  width: 1367px;
+  height: 192px;
+  left: 65px;
+  margin-top: 50px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
 
-color: #404040;
-
-
+  color: #404040;
 }
 /* .sec-1 h2{
 
@@ -116,96 +121,361 @@ color: #202445;
 
 
 } */
-.sec-2{
+.sec-2 {
+  /* position: absolute; */
+  width: 1405px;
+  height: 489px;
+  margin-left: 64px;
+  margin-top: -40px;
+}
+.sec-2 h2 {
+  /* position: absolute; */
+  width: 331px;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: 0em;
 
-/* position: absolute; */
-width: 1368px;
-height: 489px;
-margin-left: 64px;
-margin-top: -40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
 
- 
+  color: #202445;
 }
-.sec-2 h2{
+.el1 {
+  width: 1308px;
+  height: 53px;
+  margin-left: 0px;
+  margin-top: 0em;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.el1 h1 {
+  width: 117px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 0em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el1 h2 {
+  width: 62px;
+  height: 30px;
+  margin-left: 600px;
+  margin-top: -34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el2 {
+  width: 1308px;
+  height: 53px;
+  margin-left: 0px;
+  margin-top: 2em;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.el2 h1 {
+  width: 195px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 0em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el2 h2 {
+  width: 450px;
+  height: 30px;
+  margin-left: 600px;
+  margin-top: -34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el3 {
+  width: 1308px;
+  height: 53px;
+  margin-left: 0px;
+  margin-top: 2em;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.el3 h1 {
+  width: 195px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 0em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el3 h2 {
+  width: 450px;
+  height: 30px;
+  margin-left: 600px;
+  margin-top: -34px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.el4 {
+  width: 0px;
+  height: 153px;
+  margin-left: 0px;
+  margin-top: 2em;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.el4 h1 {
+  width: 195px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 1.5em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i1 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 600px;
+  top: 1130px;
+}
+.i1 h2 {
+  position: absolute;
+  width: 161px;
+  height: 30px;
+  left: 685px;
+  top: 1138px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i2 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 940px;
+  top: 1130px;
+}
+.i2 h2 {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 1027px;
+  top: 1138px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i3 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 600px;
+  top: 1170px;
+}
+.i3 h2 {
+  position: absolute;
+  width: 161px;
+  height: 30px;
+  left: 685px;
+  top: 1180px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i4 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 940px;
+  top: 1170px;
+}
+.i4 h2 {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  margin-left: 965px;
+  top: 1175px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i5 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 600px;
+  top: 1210px;
+}
+.i5 h2 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 686px;
+  top: 1220px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.i6 img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: 940px;
+  top: 1210px;
+}
+.i6 h2 {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  margin-left: 965px;
+  top: 1215px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #202020;
+}
+.sec-3 {
+  width: 1381px;
+  height: 539px;
+  margin-left: 64px;
+  margin-top: 20px;
+}
+.sec-3 .box{
+display: flex;
+width: 1400px;
+}
+.sec-3 h1 {
+  width: 372px;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #202445;
+}
+.sec-3 .box1 {
+  width: 444px;
+  height: 253px;
+  margin-left: 65px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 8px 0px rgba(159, 164, 189, 0.3);
+}
+.box1 .fl {
+  display: flex;
+  width: 120px;
+}
+.fl h1 {
+    white-space: nowrap;
+  width: 472px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #202445;
+}
+.fl h2 {
+  width: 49px;
+  height: 36px;
+  margin-left: 230px;
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #202445;
+}
+.box1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 314px;
+  height: 28px;
+  margin-left: 25px;
+  margin-top: -5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #404040;
+}
+ul li {
+  margin-bottom: 5px;
+  width: 300px;
+}
+.sec-3 button{
+    /* Frame 2 */
 
-/* position: absolute; */
-width: 331px;
-height: 60px;
-margin-left: 0px;
-margin-top: 0em;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
+width: 335px;
+height: 54px;
+margin-left: 570px;
+margin-top: 48px;
+/* margin-bottom: 40px; */
+background: #F16B51;
+border-radius: 12px;
+border-color: #F16B51;
 
-color: #202445;
+}
 
-
-}
-.el1{
-width: 1308px;
-height: 53px;
-margin-left: 0px;
-margin-top: 0em;
-background: #FFFFFF;
-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
-}
-.el1 h1{
-width: 117px;
-height: 30px;
-margin-left: 20px;
-margin-top: 0em;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #202020;
-}
-.el1 h2{
-width: 62px;
-height: 30px;
-margin-left: 600px;
-margin-top: -34px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-color: #202020;
-}
-.el2{
-width: 1308px;
-height: 53px;
-margin-left: 0px;
-margin-top: 2em;
-background: #FFFFFF;
-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
-}
-.el2 h1{
-width: 195px;
-height: 30px;
-margin-left: 20px;
-margin-top: 0em;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #202020;
-}
-.el2 h2{
-width: 450px;
-height: 30px;
-margin-left: 600px;
-margin-top: -34px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-color: #202020;
-}

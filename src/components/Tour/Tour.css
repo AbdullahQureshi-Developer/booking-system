@@ -1,6 +1,12 @@
 .upper #btn {
   display: none;
 }
+.upper {
+  width: 1500px;
+}
+.lower{
+  width: 1500px;
+}
 .lower h1 {
   /* position: absolute; */
   width: 570px;
@@ -17,6 +23,7 @@
 .cards{
   display: flex;
   flex-wrap: wrap;
+  width: 1500px;
   /* flex-direction: row; */
   /* grid-template-columns: 2px 2px 4px; */
 }

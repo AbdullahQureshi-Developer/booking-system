@@ -1,3 +1,10 @@
 .body{
-    width: 1520px;
+    width: 1500px;
+    /* margin: 0px; */
+}
+.App{
+    width: 1500px;
+}
+.App-header{
+    width: 1500px;
 }
