@@ -1,58 +1,37 @@
-.nav .btn-1{
-    display: none;
+.nav .btn-1 {
+  display: none;
 }
-.page h1{
-    /* Top Destinations At “Miami” */
-
-/* position: absolute; */
-width: 570px;
-height: 60px;
-left: 64px;
-top: 126px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
-
-color: #202445;
-
-
+.page h1 {
+  width: 570px;
+  height: 60px;
+  left: 64px;
+  top: 126px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #202445;
 }
-.page{
-    height: 700px;
+.page {
+  height: 700px;
 }
-.page img{
-    /* undraw_no_data_re_kwbl 1 */
-
-/* position: absolute; */
-width: 230px;
-height: 224px;
-margin-left: 600px;
-margin-top: 113px;
-
-
+.page img {
+  width: 230px;
+  height: 224px;
+  margin-left: 600px;
+  margin-top: 113px;
 }
-.page p{
-/* Sorry, We didn’t found any tour right now at “Miami” */
-
-/* position: absolute; */
-width: 575px;
-height: 96px;
-margin-left: 469px;
-margin-top: 40px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 48px;
-/* or 171% */
-text-align: center;
-
-color: #797C9A;
-
-
+.page p {
+  width: 575px;
+  height: 96px;
+  margin-left: 469px;
+  margin-top: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #797c9a;
 }
