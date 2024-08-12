@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import './Tour.css'
+import './test.css'
 import building2 from '../Images/building2.png'
 import building201 from '../Images/building201.png'
 import building202 from '../Images/building202.png'
 import building203 from '../Images/building203.png'
 import building204 from '../Images/building204.png'
-
-// import dollar from '../Images/$.png'
-// import clockicon from '../Images/clockicon.png'
+import filter from '../Images/filter.png'
+import dollar from '../Images/$.png'
+import clockicon from '../Images/clockicon.png'
 import building3 from '../Images/building3.png'
 import building4 from '../Images/building4.png'
 import building5 from '../Images/building5.png'
@@ -39,12 +39,12 @@ function Tour() {
     image: [building5, building201, building202, building203, building204],
     para: `The Wharf Miami —officially known as the Jorge M. Wharf Miami Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
-    const card05 = {
+  const card05 = {
     name: 'Miami Tower',
     image: [building5, building201, building202, building203, building204],
     para: `The Miami Tower —officially known as the Jorge M. Miami Tower Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
-    const card06 = {
+  const card06 = {
     name: 'Skyviews Miami',
     image: [building5, building201, building202, building203, building204],
     para: `The Skyviews Miami —officially known as the Jorge M.Skyviews Miami County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
@@ -57,10 +57,12 @@ function Tour() {
       </div>
       <div className="lower">
         <h1>Top Destination At "Miami"</h1>
+        <button className='b'><img className='i' src={filter} alt="" /><span className='t'>Filter</span></button>
+
         <div className="cards">
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building2} alt="building2" />
-            <h1>Pérez Art Museum Miami</h1>
+            <h1 className="h">Pérez Art Museum Miami</h1>
             <p className="p1">
               The Pérez Art Museum Miami —officially known as the Jorge M. Pérez
               Art Museum of Miami......
@@ -78,15 +80,20 @@ function Tour() {
               </button>
             </Link>
             {/* <button onClick={() => showDetail()}><span className='btn-text'>View Details</span></button> */}
-
-            {/* <img className="price0" src={dollar} alt="dollar" />
-          <p className="p2">$50 - $200</p>
-          <img className="clock0" src={clockicon} alt="clockicon" />
-          <p className="p3">3 Days</p> */}
+            <div className="icon">
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$50 - $200</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">3 Days</p>
+              </div>
+            </div>
           </div>
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building3} alt="building3" />
-            <h1>Hard Rock Stadium</h1>
+            <h1 className="h">Hard Rock Stadium</h1>
             <p className="p1">
               Hard Rock Stadium is a multi-purpose stadium located in Miami
               Gardens, Florida, a city......
@@ -103,14 +110,20 @@ function Tour() {
                 <span className="btn-text">View Details</span>
               </button>
             </Link>
-            {/* <img className="price1" src={dollar} alt="dollar" />
-          <p className="p22">$50 - $200</p>
-          <img className="clock1" src={clockicon} alt="clockicon" />
-          <p className="p33">3 Days</p> */}
+            <div className="icon">
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$60 - $300</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">6 Days</p>
+              </div>
+            </div>
           </div>
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building4} alt="building4" />
-            <h1>Matheson Hammock Park</h1>
+            <h1 className="h">Matheson Hammock Park</h1>
             <p className="p1">
               Matheson Hammock Park is a 630 acres urban park in metropolitan
               Miami at 9610 Old .....
@@ -127,16 +140,22 @@ function Tour() {
                 <span className="btn-text">View Details</span>
               </button>
             </Link>
-            {/* <img className="price1" src={dollar} alt="dollar" />
-          <p className="p22">$50 - $200</p>
-          <img className="clock1" src={clockicon} alt="clockicon" />
-          <p className="p33">3 Days</p> */}
+            <div className="icon">
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$250 - $800</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">15 Days</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="cards">
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building5} alt="building" />
-            <h1>The Wharf Miami</h1>
+            <h1 className="h">The Wharf Miami</h1>
             <p className="p1">
               An all new outdoor pop-up event space anchored with live music,
               eats, cocktails.
@@ -153,15 +172,21 @@ function Tour() {
                 <span className="btn-text">View Details</span>
               </button>
             </Link>
-            {/* <img className="price0" src={dollar} alt="dollar" />
-          <p className="p2">$50 - $200</p>
-          <img className="clock0" src={clockicon} alt="clockicon" />
-          <p className="p3">3 Days</p> */}
+              <div className='icon'>
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$90 - $250</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">5 Days</p>
+              </div>
+            </div>
           </div>
           {/* <Link to="./TourDetail.js"> */}
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building6} alt="building" />
-            <h1>Miami Tower</h1>
+            <h1 className="h">Miami Tower</h1>
             <p className="p1">
               The Miami Tower is a 47-story, landmark office skyscraper in
               Miami, Florida, United States.
@@ -178,18 +203,23 @@ function Tour() {
                 <span className="btn-text">View Details</span>
               </button>
             </Link>
-            {/* <img className="price1" src={dollar} alt="dollar" />
-          <p className="p22">$50 - $200</p>
-          <img className="clock1" src={clockicon} alt="clockicon" />
-          <p className="p33">3 Days</p> */}
+            <div className="icon">
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$150 - $500</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">9 Days</p>
+              </div>
+            </div>
           </div>
-          {/* </Link> */}
-          <div className="card">
+          <div className="tour-card">
             <img className="building" src={building7} alt="building" />
-            <h1>Skyviews Miami</h1>
+            <h1 className="h">Skyviews Miami</h1>
             <p className="p1">
-              Views of Biscayne Bay & the skyline from
-              climate-controlled glass gondolas.
+              Views of Biscayne Bay & the skyline from climate-controlled glass
+              gondolas.
             </p>
             <Link
               to={'/TourDetail'}
@@ -203,11 +233,16 @@ function Tour() {
                 <span className="btn-text">View Details</span>
               </button>
             </Link>
-
-            {/* <img className="price1" src={dollar} alt="dollar" />
-          <p className="p22">$50 - $200</p>
-          <img className="clock1" src={clockicon} alt="clockicon" />
-          <p className="p33">3 Days</p> */}
+            <div className="icon">
+              <div className="first">
+                <img className="price0" src={dollar} alt="dollar" />
+                <p className="p2">$70 - $300</p>
+              </div>
+              <div className="second">
+                <img className="clock0" src={clockicon} alt="clockicon" />
+                <p className="p3">7 Days</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

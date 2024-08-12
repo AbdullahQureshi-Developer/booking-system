@@ -5,8 +5,12 @@ import building from '../Images/building.png'
 import date from '../Images/calender.png'
 import location from '../Images/location.png'
 import dollar from '../Images/$.png'
+import search from '../Images/search.png'
+import NotFound from './NotFound'
+import { Link } from 'react-router-dom'
 
 function ExploreTour() {
+
   return (
     <>
       <div>
@@ -46,31 +50,38 @@ function ExploreTour() {
               <option value="4">$1000 Above</option>
             </select>
           </div>
+          <div className="btn">
+            <Link to={'/NotFound'}>
+            <button className="btn-3">
+              <img src={search} alt="" />
+            </button>
+            </Link>
+          </div>
         </div>
-        <div className='footer'>
-        <div className="search">
-          <h1>Popular Search</h1>
-          <div className="flist">
-            <span>Istanbul</span>
-            <span>Dubai</span>
-            <span>Miami</span>
-            <span>Chicago</span>
-            <span>Dallas</span>
-            <span>Havana</span>
-            <span>Berlin</span>
-            <span>London</span>
+        <div className="footer">
+          <div className="search">
+            <h1>Popular Search</h1>
+            <div className="flist">
+              <span>Istanbul</span>
+              <span>Dubai</span>
+              <span>Miami</span>
+              <span>Chicago</span>
+              <span>Dallas</span>
+              <span>Havana</span>
+              <span>Berlin</span>
+              <span>London</span>
+            </div>
+            <div className="slist">
+              <span>Ankara</span>
+              <span>Orlando</span>
+              <span className="ln">Cape Town</span>
+              <span>Santroni</span>
+              <span>Madrid</span>
+              <span>Lisbon</span>
+              <span className="ln">New Orleans</span>
+            </div>
           </div>
-          <div className="slist">
-            <span>Ankara</span>
-            <span>Orlando</span>
-            <span className="ln">Cape Town</span>
-            <span>Santroni</span>
-            <span>Madrid</span>
-            <span>Lisbon</span>
-            <span className="ln">New Orleans</span>
-          </div>
-          </div>
-          </div>
+        </div>
       </div>
     </>
   )

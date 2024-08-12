@@ -6,6 +6,7 @@ import AddTour from './components/AddTour/AddTour'
 import {Tour, TourDetail} from './components/Tour'
 import ExploreTour from './components/ExploreTour'
 import MyTour from './components/MyTour'
+import NotFound from './components/ExploreTour/NotFound'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/MyTour" Component={MyTour} />
             <Route path="/ExploreTour" Component={ExploreTour} />
             <Route path="/TourDetail" Component={TourDetail} />
+            <Route path="/NotFound" Component={NotFound} />
           </Routes>
         </Router>
       </header>

@@ -6,7 +6,6 @@ import tower from '../Images/tower.png'
 function AddTour() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  // const [phone, setPhone] = useState('')
   const [adults, setAdults] = useState('')
   const [children, setChildren] = useState('')
   const [paymentMethod, setPaymentMethod] = useState('')
@@ -60,7 +59,6 @@ function AddTour() {
 
     if (isFormValid) {
       alert('Form submitted successfully!')
-      // Reset form or further processing here
     }
   }
   return (
@@ -92,16 +90,6 @@ function AddTour() {
             />
             {errors.email && <div style={{ color: 'red' }}>{errors.email}</div>}
           </div>
-
-          {/* <div>
-            <label>Phone</label>
-            <input
-              type="text"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-            />
-            {errors.phone && <div style={{ color: 'red' }}>{errors.phone}</div>}
-          </div> */}
           <div>
             <label>Phone</label>
             <div className="phone-input-container">
@@ -113,7 +101,6 @@ function AddTour() {
                 <option value="+1">+1</option>
                 <option value="+44">+44</option>
                 <option value="+91">+91</option>
-                {/* Add more country codes as needed */}
               </select>
               <input
                 type="text"
@@ -125,7 +112,6 @@ function AddTour() {
             </div>
             {errors.phone && <div style={{ color: 'red' }}>{errors.phone}</div>}
           </div>
-
           <div>
             <label>Numbers of Adults</label>
             <input
@@ -171,32 +157,6 @@ function AddTour() {
             <span>Confirm</span>
           </button>
         </form>
-        {/* <p>name</p>
-        <input type="text" />
-        <p>Email</p>
-        <input type="email" name="" id="" />
-        <p>Phone</p>
-        <input type="tel" name="" id="" />
-        <p>Numbers of Adults</p>
-        <input type="number" name="" id="" />
-        <p>Numbers of childrens</p>
-        <input type="number" name="" id="" />
-        <p>Payment Method</p>
-        <select>
-          <option disabled selected>
-            Select
-          </option>
-          <option  value="1">
-            Visa Card
-          </option>
-          <option value="2">
-            Sadapay
-          </option>
-          <option value="3">
-            Cash
-          </option>
-        </select>
-        <button><span>Confirm</span></button> */}
       </div>
       <img className="imgs" src={tower} alt="" />
     </>

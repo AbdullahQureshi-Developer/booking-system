@@ -1,4 +1,10 @@
-.lower{
+.upper #btn {
+  display: none;
+}
+.upper {
+  width: 1500px;
+}
+.lower {
   width: 1500px;
   height: 1000px;
 }
@@ -15,14 +21,14 @@
   line-height: 60px;
   color: #202445;
 }
-.saa {
+.cards {
   display: flex;
   flex-wrap: wrap;
   width: 1500px;
   /* flex-direction: row; */
   /* grid-template-columns: 2px 2px 4px; */
 }
-.saa .cart {
+.tour-card {
   /* position: absolute; */
   width: 412px;
   height: 388px;
@@ -39,98 +45,33 @@
   margin-left: 0px;
   margin-top: 0px;
 }
-.saa .cart h1{
-/* position: absolute; */
-width: 261px;
-height: 30px;
-margin-left: 25px;
-margin-top: 8px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
+.tour-card .h {
+  /* position: absolute; */
+  width: 261px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
 }
-.saa .cart .p1{
-/* position: absolute; */
-width: 375px;
-height: 48px;
-margin-left:25px;
-margin-top:0em;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #999999;
+.tour-card .p1 {
+  /* position: absolute; */
+  width: 375px;
+  height: 48px;
+  margin-left: 25px;
+  margin-top: 0em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
 }
-.saa .cart .p2{
-/* position: absolute; */
-width: 87px;
-height: 24px;
-margin-left:60px;
-margin-top: -2em;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #797C9A;
-}
-.saa .cart .p3{
-/* position: absolute; */
-width: 54px;
-height: 24px;
-margin-left: 230px;
-margin-top: -2em;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #797C9A;
-}
-.price0 {
-width: 24px;
-height: 24px;
-margin-left: 32px;
-margin-top: 0em;
-}
-.clock0 {
-  width: 24px;
-  height: 24px;
-  margin-left: 161px;
-  margin-top: 0px;
-  color: rgba(117, 119, 139, 1);
-}
-.saa  .cart .btn1{
-  display: none;
-}
-.saa  .cart:hover .btn1{
-display: block;
-width: 160px;
-height: 44px;
-margin-left: 65px;
-margin-top: -40px;
-background: #F16B51;
-border-radius: 12px;
-border-color: #F16B51;
-}
-.btn-text{
-width: 124px;
-height: 30px;
-margin-left: 0px;
-margin-top: 0em;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #FFFFFF;
-}
-.cart .p2 {
+.tour-card .p2 {
   width: 87px;
   height: 24px;
   margin-left: 60px;
@@ -143,7 +84,7 @@ color: #FFFFFF;
   line-height: 24px;
   color: #797c9a;
 }
-.cart .p3 {
+.tour-card .p3 {
   width: 54px;
   height: 24px;
   margin-left: 230px;
@@ -154,35 +95,59 @@ color: #FFFFFF;
   font-size: 16px;
   line-height: 24px;
   color: #797c9a;
-} 
-.saa .cart .dustbin{
-    display: none;
 }
-.saa  .cart:hover .dustbin {
-display: block;
-width: 32px;
-height: 32px;
-margin-left:20px;
-margin-top:0px;
-}
-.saa  .cart .btn2{
+.tour-card button {
   display: none;
 }
-.saa  .cart:hover .btn2{
-display: block;
-width: 160px;
-height: 44px;
-margin-left: 230px;
-margin-top: -44px;
-background: #F16B51;
-border-radius: 12px;
-border-color: #F16B51;
+.tour-card:hover button {
+  /* Rectangle 19 */
+  display: block;
+  /* position: absolute; */
+  width: 360px;
+  height: 44px;
+  margin-left: 25px;
+  margin-top: -10px;
+
+  background: #f16b51;
+  border-radius: 12px;
+  border-color: #f16b51;
+  /* transform: rotate(90deg); */
 }
-.saa .icon {
+.btn-text {
+  /* View Details */
+  
+  /* position: absolute; */
+  width: 124px;
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 0em;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  color: #ffffff;
+}
+.price0 {
+  /* position: absolute; */
+  width: 24px;
+  height: 24px;
+}
+.clock0 {
+  /* position: absolute; */
+  width: 24px;
+  height: 24px;
+
+  color: rgba(117, 119, 139, 1);
+}
+.icon {
   display: flex;
   width: 300px;
 }
-.icon .first .p2 {
+.first .p2 {
   width: 100px;
   height: 24px;
   margin-left: 5px;
@@ -195,7 +160,7 @@ border-color: #F16B51;
   line-height: 24px;
   color: #797c9a;
 }
-.icon .second .p3 {
+.second .p3 {
   width: 84px;
   height: 24px;
   margin-left: 5px;
@@ -214,7 +179,7 @@ border-color: #F16B51;
   display: flex;
   margin-left: -20px;
 }
-.cart:hover .icon{
+.tour-card:hover .icon{
   display: none;
 }
 .b{
@@ -272,4 +237,3 @@ flex-grow: 0;
 .nav .btn-1{
     display: none;
 }
-

@@ -405,3 +405,21 @@ flex-grow: 0;
     width: 1519px;
     height: 300px;
 }
+.btn-3{
+cursor: pointer;
+width: 54px;
+height: 87px;
+margin-left: 30px;
+margin-top: 19px;
+background: rgba(241, 107, 81, 1);
+border-radius: 12px;
+border-color: rgba(241, 107, 81, 1);
+}
+.btn img{
+cursor: pointer;
+width: 24px;
+height: 24px;
+background: rgba(241, 107, 81, 1);
+margin-left: 0px;
+margin-top: 0px;
+}

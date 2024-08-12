@@ -18,8 +18,9 @@ function LandingPage() {
         <Navbar />
       </div>
       <div>
-      <h1>
-        <span class="underline">Explore</span>
+        <h1>
+          Explore
+        <span class="underline"></span>
         {hh}The New World
         <br />
         With Tourbay
