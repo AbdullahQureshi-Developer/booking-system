@@ -3,6 +3,9 @@ import Navbar from '../Navbar'
 import { useLocation } from 'react-router-dom'
 import './TourDetail.css'
 import tick from '../Images/tick.png'
+import cloud from '../Images/cloud.png'
+import sun from '../Images/sun.png'
+
 
 function TourDetail() {
   const location = useLocation()
@@ -11,7 +14,7 @@ function TourDetail() {
 
   return (
     <>
-      <div className='page'>
+      {/* <div className='page'> */}
         <div className='nav' >
           <Navbar />
         </div>
@@ -81,7 +84,8 @@ function TourDetail() {
               <div className="box">
                 <div className="box1">
                   <div className="fl">
-                    <h1>Day 1</h1>
+                  <h1>Day 1</h1>
+                  <img src={sun} alt="" />
                     <h2>18*C</h2>
                   </div>
                   <ul>
@@ -93,7 +97,8 @@ function TourDetail() {
                 </div>
                 <div className="box1">
                   <div className="fl">
-                    <h1>Day 2</h1>
+                  <h1>Day 2</h1>
+                  <img src={cloud} alt="" />
                     <h2>14*C</h2>
                   </div>
                   <ul>
@@ -105,7 +110,8 @@ function TourDetail() {
                 </div>
                 <div className="box1">
                   <div className="fl">
-                    <h1>Day 3</h1>
+                  <h1>Day 3</h1>
+                  <img src={sun} alt="" />
                     <h2>17*C</h2>
                   </div>
                   <ul>
@@ -120,7 +126,6 @@ function TourDetail() {
             </div>
           </div>
         )}
-      </div>
     </>
   )
 }

@@ -5,6 +5,14 @@
 .nav .btn-1{
    display: none;
 }
+/* .nav img{
+  
+  width: 85.66px;
+  height: 25.97px;
+  margin-left: 64.15px;
+  margin-top: 15px;
+
+} */
 .sec-1 h1 {
   /* Pérez Art Museum Miami */
 
@@ -24,9 +32,6 @@
   color: #202445;
 }
 
-.page{
-    width: 1500px;
-}
 .sec-1{
     width: 1500px;
 } 
@@ -426,10 +431,21 @@ width: 1400px;
   line-height: 36px;
   color: #202445;
 }
+.fl img{
+  /* Group 153 */
+
+/* position: absolute; */
+width: 36px;
+height: 36px;
+margin-left: 180px;
+margin-top: 28px;
+
+
+}
 .fl h2 {
   width: 49px;
   height: 36px;
-  margin-left: 230px;
+  margin-left: 10px;
   margin-top: 30px;
   font-family: 'Poppins';
   font-style: normal;
