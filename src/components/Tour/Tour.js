@@ -41,12 +41,12 @@ function Tour() {
   }
   const card05 = {
     name: 'Miami Tower',
-    image: [building5, building201, building202, building203, building204],
+    image: [building6, building201, building202, building203, building204],
     para: `The Miami Tower —officially known as the Jorge M. Miami Tower Park County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
   const card06 = {
     name: 'Skyviews Miami',
-    image: [building5, building201, building202, building203, building204],
+    image: [building7, building201, building202, building203, building204],
     para: `The Skyviews Miami —officially known as the Jorge M.Skyviews Miami County—is a contemporary art museum that relocated in 2016 to the \n Museum Park in Downtown Miami, Florida.\n Founded in 1984 as the Center for the Fine Arts, it became known as the Miami Art Museum from 1996 until it was renamed in 2013 upon the opening its new building\ndesigned by Herzog & de Meuron at 1103 Biscayne Boulevard.\nPAMM, along with the \$275 million Phillip and Patricia Frost Museum of Science and a city park which are being built in the area with completion in 2017, is part of the 20-\nacre Museum Park.`,
   }
 
